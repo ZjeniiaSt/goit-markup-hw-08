@@ -15,7 +15,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("/images/desktop/Header_d_1x-min.jpg");
+    url("./images/desktop/Header_d_1x-min.jpg");
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -33,7 +33,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("/images/desktop/Header_d_2x-min.jpg");
+      url("./images/desktop/Header_d_2x-min.jpg");
   }
 }
 
@@ -50,7 +50,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("/images/tablet/Header_t_1x-min.jpg");
+      url("./images/tablet/Header_t_1x-min.jpg");
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -68,7 +68,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url("/images/tablet/Header_t_2x-min.jpg");
+        url("./images/tablet/Header_t_2x-min.jpg");
     }
   }
 }
@@ -86,7 +86,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("/images/mobile/Header_m_1x-min.jpg");
+      url("./images/mobile/Header_m_1x-min.jpg");
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -104,7 +104,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url("/images/mobile/Header_m_2x-min.jpg");
+        url("./images/mobile/Header_m_2x-min.jpg");
     }
   }
 }
