@@ -1,0 +1,49 @@
+
+.icons-list {
+    display: flex;
+    justify-content: center;
+    padding: 16px 32px 30px;
+  }
+  
+  .icons-list__card {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    flex-basis: calc((100% - 30px) / 4);
+    border-radius: 50%;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms $timing;
+  
+     &:last-child {
+       margin-right: 0;
+     }
+  
+     &:hover,
+     &:focus {
+       background-color: $accent-color;
+    }
+
+    &:focus-within {
+      background-color: $accent-color;
+    }
+  }
+
+  .icons-list__icon {
+    display: flex;
+    fill: $icon-color;
+    align-items: center;
+    justify-content: center;
+  
+     .icons-list__card &{
+       transition: fill 250ms $timing;
+      }
+  
+     .icons-list__card:hover &,
+     .icons-list__card:focus-within & {
+       fill: $white-color;
+       outline: none;
+      }
+  }
+   

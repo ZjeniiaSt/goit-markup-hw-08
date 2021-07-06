@@ -1,0 +1,120 @@
+
+.page-footer {
+    background-color: $bacbackground-color-dark;
+  }
+  
+  .footer-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    @media screen and (max-width: 767px) {
+    flex-direction: column;  
+    }
+    @media screen and (max-width: 1119px){
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+}
+  .page-footer__logo {
+    padding-bottom: 20px;
+    margin: 0;
+    @media screen and (max-width: 1119px){
+      text-align: center;
+    }
+  }
+  
+  .logo__part--white {
+    color: $white-color;
+  }
+  
+
+  .footer-contacts {
+    @media screen and (max-width: 1119px) {
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-right: auto;
+    margin-left: auto;}
+  }
+
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    @media screen and (max-width: 1119px){
+  align-items: center;}
+  }
+  
+  .contacts__post {
+    font-style: normal;
+    color: $white-color;
+    font-size: 14px;
+    line-height: 2;
+    padding-bottom: 9px;
+  }
+  
+  .contacts__mailto,
+  .contacts__tel {
+    font-style: normal;
+    color: $text-color;
+    font-size: 14px;
+    line-height: 2;
+    transition: color 250ms $timing;
+  
+  &:hover,
+  &:focus {
+    color: $white-color;
+  }
+  }
+
+  .contacts__mailto {
+    padding-bottom: 9px;
+  }
+  
+  .page-footer__icon-list{
+    padding: 0;
+  }
+  
+  
+  .our-icons {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (max-width: 1119px) {
+    align-items: center;
+    padding-bottom: 60px;
+    }
+  }
+  
+  .icons-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  
+  }
+  
+  .page-footer__icons-list {
+    padding: 20px 0;
+  }
+  
+  .our-icons__title {
+    color: $white-color;
+    width: 145px;
+    height: 16px;
+    left: 516px;
+    top: 2751px;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+  }
+  
+  .page-footer__card {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .page-footer__icon {
+    fill: $white-color;
+  }
+  

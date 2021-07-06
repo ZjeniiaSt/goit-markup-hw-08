@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $white-color;
+  font-family: $main-font;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+
+.section__title {
+  color: $black-color;
+  font-weight: 700;
+  text-align: center;
+  font-size: 28px;
+  line-height: 1.17;
+  margin-bottom: 30px;
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+
+  &--hide {
+    @extend %hide;
+  }
+}
+
+.section {
+  padding: 60px 0;
+
+  @media screen and (min-width: 1200px) {
+    padding: 94px 0;
+  }
+}

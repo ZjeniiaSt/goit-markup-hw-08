@@ -1,0 +1,26 @@
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  margin: 16px 0;
+  color: $accent-color;
+  @media screen and (min-width: 768px) {
+    margin-top: 24px;
+    margin-bottom: 25px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
+
+.logo__part {
+  color: $black-color;
+
+  .logo:hover &,
+  .logo:focus & {
+    color: $accent-color;
+  }
+}
