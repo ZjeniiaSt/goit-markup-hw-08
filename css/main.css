@@ -512,6 +512,7 @@ img {
   position: absolute;
   background-color: #fff;
   top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
 }
@@ -519,13 +520,13 @@ img {
 .mobile-nav .menu-container {
   position: relative;
   padding: 48px 40px;
+  top: 0;
   display: flex;
   background-color: white;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
   width: 100%;
-  background-color: white;
   z-index: 999;
 }
 
@@ -553,7 +554,7 @@ img {
   letter-spacing: 0.02em;
 }
 
-.mobile-contacts__link {
+.mobile-contacts__item {
   font-weight: 500;
   font-size: 24px;
   line-height: 1.17;
@@ -561,11 +562,11 @@ img {
   color: #757575;
 }
 
-.mobile-contacts__link:first-child {
-  margin-bottom: 32px;
+.mobile-contacts__item:first-child {
+  padding-bottom: 32px;
 }
 
-.mobile-contacts__link:hover, .mobile-contacts__link:focus {
+.mobile-contacts__item:hover, .mobile-contacts__item:focus {
   color: #2196f3;
   font-weight: 500;
   font-size: 34px;
@@ -628,7 +629,7 @@ img {
   margin-right: auto;
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/desktop/Header_d_1x-min.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/desktop/Header_d_1x-min.jpg");
 }
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -639,7 +640,7 @@ img {
     margin-right: auto;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/desktop/Header_d_2x-min.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/desktop/Header_d_2x-min.jpg");
   }
 }
 
@@ -651,7 +652,7 @@ img {
     margin-right: auto;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/tablet/Header_t_1x-min.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/tablet/Header_t_1x-min.jpg");
   }
 }
 
@@ -663,7 +664,7 @@ img {
     margin-right: auto;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/tablet/Header_t_2x-min.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/tablet/Header_t_2x-min.jpg");
   }
 }
 
@@ -675,7 +676,7 @@ img {
     margin-right: auto;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/mobile/Header_m_1x-min.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/mobile/Header_m_1x-min.jpg");
   }
 }
 
@@ -687,7 +688,7 @@ img {
     margin-right: auto;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/mobile/Header_m_2x-min.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/mobile/Header_m_2x-min.jpg");
   }
 }
 
