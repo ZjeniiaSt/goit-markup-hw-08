@@ -16,95 +16,65 @@
       rgba(47, 48, 58, 0.4)
     ),
     url("../images/desktop/Header_d_1x-min.jpg");
-}
-
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .overlay {
-    max-width: 1600px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    background-size: cover;
-    background-position: center;
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url("../images/desktop/Header_d_2x-min.jpg");
-  }
-}
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .overlay {
-    max-width: 1600px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    background-size: cover;
-    background-position: center;
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url("../images/tablet/Header_t_1x-min.jpg");
-  }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .overlay {
-      max-width: 1600px;
-      height: 600px;
-      margin-left: auto;
-      margin-right: auto;
-      background-size: cover;
-      background-position: center;
       background-image: linear-gradient(
           to right,
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url("../images/tablet/Header_t_2x-min.jpg");
+        url("../images/desktop/Header_d_2x-min.jpg");
     }
   }
-}
 
-@media screen and (max-width: 480px) {
-  .overlay {
-    max-width: 1600px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    background-size: cover;
-    background-position: center;
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url("../images/mobile/Header_m_1x-min.jpg");
-  }
-
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  @media screen and (min-width: 481px) and (max-width: 768px) {
     .overlay {
-      max-width: 1600px;
-      height: 600px;
-      margin-left: auto;
-      margin-right: auto;
-      background-size: cover;
-      background-position: center;
       background-image: linear-gradient(
           to right,
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url("../images/mobile/Header_m_2x-min.jpg");
+        url("../images/tablet/Header_t_1x-min.jpg");
+    }
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .overlay {
+        background-image: linear-gradient(
+            to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+          ),
+          url("../images/tablet/Header_t_2x-min.jpg");
+      }
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .overlay {
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../images/mobile/Header_m_1x-min.jpg");
+    }
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .overlay {
+        background-image: linear-gradient(
+            to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+          ),
+          url("../images/mobile/Header_m_2x-min.jpg");
+      }
     }
   }
 }
